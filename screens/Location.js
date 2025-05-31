@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, StyleSheet, Pressable } from "react-native";
+import Constants from 'expo-constants';
 
-const API_KEY = '48a17fb724b071ab5ef9fb455f980c1c'; // Your API key
+import { WEATHER_API_KEY } from "./secrets";
+
+const API_KEY = WEATHER_API_KEY; // Your API key
 
 export default function Location({ location,navigation }) {
   const [weather, setWeather] = useState(null);
