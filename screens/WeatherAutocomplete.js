@@ -3,7 +3,8 @@ import {
     View, TextInput, FlatList, Text, TouchableOpacity, StyleSheet 
 } from "react-native";
 
-const API_KEY = '48a17fb724b071ab5ef9fb455f980c1c';
+import { WEATHER_API_KEY } from "./secrets";
+const API_KEY = WEATHER_API_KEY;
 
 
 
