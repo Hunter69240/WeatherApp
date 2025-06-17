@@ -13,7 +13,7 @@ export default function App() {
   const [Locationsset,SetLocationsset]=useState([])
   
   const addlocation =(loc)=>{
-    SetLocationsset(prevlocations=>[...prevlocations,loc])  //prevlocations temp variable to hold the variable want to add
+    SetLocationsset(prevlocations=>[...prevlocations,loc])  
   }
   return (
     <NavigationContainer>

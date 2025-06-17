@@ -4,7 +4,7 @@ import Constants from 'expo-constants';
 
 import { WEATHER_API_KEY } from "./secrets";
 
-const API_KEY = WEATHER_API_KEY; // Your API key
+const API_KEY = WEATHER_API_KEY; 
 
 export default function Location({ location,navigation }) {
   const [weather, setWeather] = useState(null);
